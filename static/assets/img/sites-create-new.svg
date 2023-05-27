@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321px" height="166px" viewBox="0 0 321 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sites-create-new</title>
+    <g id="sites-create-new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="border-and-background" stroke="#BDC1C6" fill="#FFFFFF" stroke-linejoin="round" x="1" y="1" width="319" height="164"></rect>
+        <rect id="Rectangle" fill="#F1F3F4" x="2" y="47.7478808" width="317" height="43.4475825"></rect>
+        <g id="Group-3" transform="translate(28.000000, 56.000000)">
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FFFFFF" x="0.5" y="40.5" width="53" height="52"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FFFFFF" x="227.5" y="1.5" width="36" height="26"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#81C995" x="227.5" y="0.5" width="36" height="13"></rect>
+            <line x1="237.585859" y1="6.98275092" x2="253.540784" y2="6.98275092" id="Line-15" stroke="#FFFFFF" stroke-linecap="round"></line>
+            <line x1="237.585859" y1="20.7413828" x2="253.540784" y2="20.7413828" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FFFFFF" x="115.5" y="1.5" width="36" height="26"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FFFFFF" x="173.5" y="1.5" width="36" height="26"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FDD663" x="173.5" y="0.5" width="36" height="13"></rect>
+            <line x1="183.585859" y1="6.98275092" x2="199.540784" y2="6.98275092" id="Line-15" stroke="#FFFFFF" stroke-linecap="round"></line>
+            <line x1="183.585859" y1="20.7413828" x2="199.540784" y2="20.7413828" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FFFFFF" x="59.5" y="1.5" width="36" height="26"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#F28B82" x="115.5" y="0.5" width="36" height="13"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#8AB4F8" x="59.5" y="0.5" width="36" height="13"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#D2E3FC" x="71.5" y="40.5" width="53" height="52"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FFFFFF" x="143.5" y="40.5" width="53" height="52"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FFFFFF" x="212.5" y="40.5" width="53" height="52"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#8AB4F8" x="0.5" y="40.5" width="53" height="30"></rect>
+            <rect id="Rectangle" fill="#D2E3FC" x="6.96774194" y="46" width="40.0645161" height="19"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#81C995" x="71.5" y="40.5" width="53" height="13"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" x="143.5" y="40.5" width="53" height="37"></rect>
+            <rect id="Rectangle" stroke="#BDC1C6" fill="#FDD663" x="212.5" y="40.5" width="53" height="21"></rect>
+        </g>
+        <line x1="1.5" y1="43" x2="319.5" y2="43" id="Line" stroke="#BDC1C6"></line>
+        <line x1="107.029368" y1="103.757659" x2="141.461133" y2="103.757659" id="Line-15" stroke="#FFFFFF" stroke-linecap="round"></line>
+        <g id="image" transform="translate(179.500000, 101.500000)">
+            <polygon id="Triangle" fill="#81C995" points="22 13 33 27 11 27"></polygon>
+            <polygon id="Triangle" fill="#A8DAB5" points="8 17 16 27 0 27"></polygon>
+            <circle id="Oval" fill="#FDD663" cx="9.5" cy="6.5" r="6.5"></circle>
+        </g>
+        <line x1="107.252958" y1="117.695745" x2="141.645672" y2="117.695745" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="107.252958" y1="125.41976" x2="141.645672" y2="125.41976" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="107.252958" y1="133.143774" x2="141.645672" y2="133.143774" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="107.252958" y1="140.867789" x2="141.645672" y2="140.867789" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="36.1850791" y1="134.288095" x2="70.5777933" y2="134.288095" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="36.1850791" y1="142.01211" x2="70.5777933" y2="142.01211" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="178.871226" y1="140.867789" x2="213.26394" y2="140.867789" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="247.561654" y1="125.482751" x2="281.954368" y2="125.482751" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="268.962499" y1="107.265193" x2="282.206745" y2="107.265193" id="Line-15" stroke="#FFFFFF" stroke-linecap="round"></line>
+        <rect id="Rectangle" fill="#FEEFC3" x="248" y="102.847564" width="13.9380857" height="8.84532362"></rect>
+        <line x1="247.561654" y1="133.482751" x2="281.954368" y2="133.482751" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="247.561654" y1="141.482751" x2="281.954368" y2="141.482751" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="152.085859" y1="62.9827509" x2="168.040784" y2="62.9827509" id="Line-15" stroke="#FFFFFF" stroke-linecap="round"></line>
+        <line x1="96.085859" y1="62.9827509" x2="112.040784" y2="62.9827509" id="Line-15" stroke="#FFFFFF" stroke-linecap="round"></line>
+        <line x1="96.085859" y1="76.7413828" x2="112.040784" y2="76.7413828" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <line x1="152.085859" y1="76.7413828" x2="168.040784" y2="76.7413828" id="Line-15" stroke="#BDC1C6" stroke-linecap="round"></line>
+        <g id="UI/menu-dark-grey" transform="translate(12.000000, 19.000000)" stroke="#BDC1C6" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="1.40946282e-16" y1="0.40625" x2="13" y2="0.40625" id="Line"></line>
+            <line x1="1.40946282e-16" y1="4.30625" x2="13" y2="4.30625" id="Line"></line>
+            <line x1="1.40946282e-16" y1="8.20625" x2="13" y2="8.20625" id="Line"></line>
+        </g>
+        <g id="search" transform="translate(69.000000, 10.000000)" stroke="#BDC1C6">
+            <rect id="Rectangle" x="0.5" y="0.5" width="141" height="26" rx="2"></rect>
+            <line x1="33" y1="13.5" x2="80" y2="13.5" id="Line-2" fill="#BDC1C6" stroke-linecap="round" stroke-linejoin="round"></line>
+            <g id="Group" transform="translate(10.000000, 7.000000)">
+                <circle id="Oval" cx="5.43522385" cy="5.43522385" r="5.43522385"></circle>
+                <line x1="9.70575688" y1="9.70575688" x2="13" y2="13" id="Line-6" stroke-linecap="square"></line>
+            </g>
+        </g>
+        <rect id="Rectangle" stroke="#3C4043" fill="#FFFFFF" x="28.5" y="57.5" width="36" height="26"></rect>
+        <g id="UI/add" transform="translate(38.769442, 62.592054)" stroke="#3C4043" stroke-linejoin="round">
+            <g id="Group" transform="translate(0.000000, 0.000000)">
+                <g id="Rectangle-2" transform="translate(6.666667, 0.000000)" fill="#34A953">
+                    <rect id="Rectangle" x="0" y="0" width="2.66666667" height="16"></rect>
+                </g>
+                <polygon id="Rectangle" fill="#FBBC22" transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000) " points="6.66666667 -1.77635684e-15 9.33333333 -1.77635684e-15 9.33333333 16 6.66666667 16"></polygon>
+                <polygon id="Rectangle" fill="#EA4336" points="6.66666667 0 9.33333333 0 9.33333333 8 6.66666667 9.33333333"></polygon>
+                <polygon id="Rectangle" fill="#4185F4" transform="translate(11.333333, 8.000000) rotate(90.000000) translate(-11.333333, -8.000000) " points="10 3.33333333 12.6666667 3.33333333 12.6666667 12.6666667 10 10"></polygon>
+            </g>
+        </g>
+        <g id="Logos/sites" transform="translate(35.746875, 12.288198)">
+            <g id="Group-2" transform="translate(0.000000, -0.000000)">
+                <path d="M11.4376638,5.67393113 L14.1212905,19.07746 L6.0630572,13.642113 L11.4376638,5.67393113 Z" id="Triangle" stroke="#979797" fill="#D8D8D8" transform="translate(10.109690, 12.286941) rotate(-34.000000) translate(-10.109690, -12.286941) "></path>
+                <g id="Group">
+                    <path d="M2,0 L11.5295081,0 L11.5295081,0 L18.5235075,6.33101097 L18.5235075,20.8819799 C18.5235075,21.9865494 17.628077,22.8819799 16.5235075,22.8819799 L2,22.8819799 C0.8954305,22.8819799 1.87533573e-15,21.9865494 0,20.8819799 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle" stroke="#3C3C3C" fill="#899AF6"></path>
+                    <path d="M19.1737703,0.0564835244 L11.7037226,7.51050233 L11.7037226,0.0564835244 L19.1737703,0.0564835244 Z" id="Path-5" stroke="#3C4043" fill="#6C7FE3" stroke-linejoin="round" transform="translate(15.084275, 3.430855) rotate(-90.000000) translate(-15.084275, -3.430855) "></path>
+                </g>
+                <rect id="Rectangle" fill="#FFFFFF" x="3.60036142" y="12.9253912" width="8.15075247" height="5.22414355"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="3.60036142" y="9.63845223" width="11.035865" height="1.9373137"></rect>
+                <polygon id="Rectangle" fill="#FFFFFF" transform="translate(13.667570, 15.537463) rotate(-270.000000) translate(-13.667570, -15.537463) " points="11.0554978 14.5688061 16.2796413 14.5688061 16.2796413 16.5061198 11.0554978 16.5061198"></polygon>
+            </g>
+        </g>
+        <g id="UI/arrow" transform="translate(42.722222, 67.722222)" fill-rule="nonzero">
+            <g id="white-bg" transform="translate(-0.000000, 0.000000)" fill="#FFFFFF">
+                <g id="Group-5" transform="translate(0.455556, 0.455556)">
+                    <g id="Group" transform="translate(21.866667, 21.866667) rotate(-45.000000) translate(-21.866667, -21.866667) translate(9.569982, 3.239215)">
+                        <g id="Group-3" transform="translate(-0.000000, 0.000000)">
+                            <polygon id="Triangle" stroke="#FFFFFF" stroke-linejoin="round" points="12.5487408 0 20.6884645 21.3214449 15.6011372 16.7017985 12.2095856 24.5196616 0 24.5196616"></polygon>
+                            <polygon id="Triangle" points="13.0611387 0.495332879 24.5933693 24.0243287 3.1386654 23.2179596"></polygon>
+                        </g>
+                        <g id="Group-2" transform="translate(7.585358, 22.773891)">
+                            <polygon id="Rectangle" points="0.541813094 0.0893068914 8.73328888 0 9.19487311 14.4810132 9.56135456e-14 14.4810132"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-5-2" transform="translate(2.943590, 2.943590)">
+                <g id="Group-5" transform="translate(0.245299, 0.245299)">
+                    <g id="Group" transform="translate(19.588889, 19.588889) rotate(-45.000000) translate(-19.588889, -19.588889) translate(8.905266, 2.569639)">
+                        <polygon id="Triangle" stroke="#3C4043" fill="#3C4043" stroke-linejoin="round" points="10.9803899 0 18.1028049 17.8060376 13.6512955 13.9480628 10.6836226 20.4769433 0 20.4769433"></polygon>
+                        <g id="Group-2" transform="translate(8.012717, 18.330075)">
+                            <polygon id="Rectangle" fill="#3C4043" points="2.06657323e-11 1.58849776 3.73893096 1.50976921 4.19692331 15.7084242 -1.31212108e-12 15.7084242"></polygon>
+                            <rect id="Rectangle" fill="#FBBC04" x="2.13745218" y="9.54269879e-14" width="3.35753865" height="15.6843382"></rect>
+                        </g>
+                        <polygon id="Triangle" fill="#FBBC04" points="11.6532585 0.713007508 21.3672451 19.8834087 2.40429786 19.2109287"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Icons/menu-apps-dark-grey" transform="translate(257.500000, 17.500000)" fill="#BDC1C6">
+            <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            <circle id="Oval" cx="6.5" cy="1.5" r="1.5"></circle>
+            <circle id="Oval" cx="11.5" cy="1.5" r="1.5"></circle>
+            <circle id="Oval" cx="1.5" cy="6.5" r="1.5"></circle>
+            <circle id="Oval" cx="6.5" cy="6.5" r="1.5"></circle>
+            <circle id="Oval" cx="11.5" cy="6.5" r="1.5"></circle>
+            <circle id="Oval" cx="1.5" cy="11.5" r="1.5"></circle>
+            <circle id="Oval" cx="6.5" cy="11.5" r="1.5"></circle>
+            <circle id="Oval" cx="11.5" cy="11.5" r="1.5"></circle>
+        </g>
+    </g>
+</svg>

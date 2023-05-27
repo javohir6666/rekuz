@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <title>RekUz.com</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+               <header>
+           
+            <nav class="container">
+                <div class="logo">
+                <a href="index.html"><img src="{% static 'assets/img/LOgo.jpg' %}" alt=""></a></div>
+                <ul class="menu">
+                    {% if user.is_authenticated %}
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./reklamajoylashtirish.html">place an ad</a></li>
+                <li><a href="./balance.html">balance</a></li>
+                <li><a href="./adsite.html">Add site</a></li>
+                <li><a href="#">Statistics</a></li>
+                <li><a href="#">withdraw money</a></li>
+                {% else %}
+                <li><a href="{% url 'users:login' %}">Login</a></li>
+                <li><a href="#">Signup</a></li>
+                {% endif %}
+                </ul>
+            </nav>
+        </header>
+        </div>
+        <div class="intro container">
+            <div class="intro_img">
+                <img src="{% static 'assets/img/reklama.png' %}" alt="" width="500px">
+            </div>
+            <div class="intro_text">
+                <h1>Welcome</h1>
+                <p>Welcome to our site and increase your income with us</p>
+                <h2>There are all kinds of ads</h2>
+                <a href="./anadvertiser.html"><button type="button"><b>an advertiser</b></button></a>
+                <a href="./publisher.html"><button type="button"><b>publisher</b></button></a>
+            </div>
+        </div>
+        <div class="border container">
+            <div class="border_text">
+                <img src="{% static 'assets/img/Free-Social-Media-Banner-Design-Flat-Style-scaled.jpg' %}" alt="">
+                <h1>Banner</h1>
+                <p>Banner ads look like this</p>
+                <h2>Earn Big with Banner Ads You get paid more for banner ads. Earn money by placing ads on your site</h2>
+            </div>
+            <div class="border_text">
+                <img src="{% static 'assets/img/podpiska-na-push-uvedomleniia.webp' %}" alt="">
+                <h1>Push notification </h1>
+                <p>push ads look like this</p>
+                <h2>Earn Big with Push Ads You get paid more for banner ads. Earn money by placing ads on your site</h2>
+            </div>
+            <div class="border_text">
+                <img src="{% static 'assets/img/digital-marketing-banner-template_23-2148924871.avif' %}" alt="">
+                <h1>pro banner</h1>
+                <p>pro banner  ads look like this</p>
+                <h2>Pro banner ad appears in the front window of the site Appears in the front window when the user is using the site, and when the user clicks on the ad, you are paid.</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
