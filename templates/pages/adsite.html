@@ -1,37 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/adsite.css">
-    <title>Add site</title>
-</head>
-<body>
+{% extends 'pages/base.html' %}
+{% load static %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'assets/css/adsite.css' %}">
+    {% block title %}Add site{% endblock title %}
+
     <div class="wrapper">
-        <div class="container">
-               <header>
-           
-            <nav class="container">
-                <div class="logo">
-                <a href="index.html"><img src="./img/LOgo.jpg" alt=""></a></div>
-                <ul class="menu">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./reklamajoylashtirish.html">place an ad</a></li>
-                <li><a href="./balance.html">balance</a></li>
-                <li><a href="./adsite.html">Add site</a></li>
-                <li><a href="#">Statistics</a></li>
-                <li><a href="#">withdraw money</a></li>
-                </ul>
-            </nav>
-        </header>
-        </div>
         <div class="intro container">
             <div class="intro_text">
                 <h1>You are in the add site section</h1>
+                
             </div>
             <div class="intro_img">
-                <img src="./img/sites-create-new.svg" alt="">
+                <img src="{% static 'assets/img/sites-create-new.svg' %}" alt="">
             </div>
         </div>
         <div class="mega container">
@@ -61,5 +41,4 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+{% endblock content %}

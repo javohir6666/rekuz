@@ -7,3 +7,7 @@ class IndexView(View):
     def get(self, request):
 
         return render(request, 'pages/index.html')
+    
+class AdSite(View):
+    def get(self, request):
+        return render(request, 'pages/adsite.html')

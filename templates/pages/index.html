@@ -1,37 +1,8 @@
+{% extends 'pages/base.html' %}]
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
-    <title>RekUz.com</title>
-</head>
-<body>
+{% block title %}RekUz.com{% endblock title %}
+{% block content %}
     <div class="wrapper">
-        <div class="container">
-               <header>
-           
-            <nav class="container">
-                <div class="logo">
-                <a href="index.html"><img src="{% static 'assets/img/LOgo.jpg' %}" alt=""></a></div>
-                <ul class="menu">
-                    {% if user.is_authenticated %}
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./reklamajoylashtirish.html">place an ad</a></li>
-                <li><a href="./balance.html">balance</a></li>
-                <li><a href="./adsite.html">Add site</a></li>
-                <li><a href="#">Statistics</a></li>
-                <li><a href="#">withdraw money</a></li>
-                {% else %}
-                <li><a href="{% url 'users:login' %}">Login</a></li>
-                <li><a href="#">Signup</a></li>
-                {% endif %}
-                </ul>
-            </nav>
-        </header>
-        </div>
         <div class="intro container">
             <div class="intro_img">
                 <img src="{% static 'assets/img/reklama.png' %}" alt="" width="500px">
@@ -65,5 +36,4 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+    {% endblock content %}

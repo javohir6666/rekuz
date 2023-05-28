@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+<div class="container">
+    <header>
+
+ <nav class="container">
+     <div class="logo">
+     <a href="index.html"><img src="{% static 'assets/img/LOgo.jpg' %}" alt=""></a></div>
+     <ul class="menu">
+         {% if user.is_authenticated %}
+     <li><a href="{% url 'main:home' %}">Home</a></li>
+     <li><a href="./reklamajoylashtirish.html">place an ad</a></li>
+     <li><a href="./balance.html">balance</a></li>
+     <li><a href="{% url 'main:adsite' %}">Add site</a></li>
+     <li><a href="#">Statistics</a></li>
+     <li><a href="#">withdraw money</a></li>
+     <li><a href="{% url 'users:logout' %}">Logout</a></li>
+     {% else %}
+     <li><a href="{% url 'users:login' %}">Login</a></li>
+     <li><a href="#">Signup</a></li>
+     {% endif %}
+     </ul>
+ </nav>
+</header>
+</div>
+{% block content %}{% endblock content %}
+</body>
+</html>

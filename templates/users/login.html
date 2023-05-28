@@ -20,7 +20,7 @@
                 <input type="password" placeholder="Enter your password" name='password'>
                 <a href="#">Forgot password?</a>
                 <input type="submit" class="button" value="Login">
-                {% if message %}
+                {% if messages %}
                   <ul class="messages">
                       {% for message in messages %}
                       <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
@@ -36,13 +36,29 @@
             </div>
             <div class="registration form">
               <header>Signup</header>
-              <form action="#">
-                <input type="text" placeholder="Enter your email">
-                <input type="password" placeholder="Create a password">
-                <input type="password" placeholder="Confirm your password">
-                <input type="text" placeholder="Telegram">
+              <form action="{% url 'users:signup_save' %}", method='POST'>
+                {% csrf_token %}
+                <div class="user-select" style="width:200px;">
+                <select>
+                  {% for type in user_type %}
+                  <option>{{type}}</option>
+                  {% endfor %}
+                </select>
+              </div>  
+                <input type="text" name='email' placeholder="Enter your email">
+                <input type="text" name='username' placeholder="Enter your username">
+                <input type="password" name='password' placeholder="Create a password">
+                <input type="password" name='password2' placeholder="Confirm your password">
+                <input type="text" name='telegram' placeholder="Telegram">
                 <input type="submit" class="button" value="Signup">
               </form>
+              {% if messages %}
+              <ul class="messages">
+                  {% for message in messages %}
+                  <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                  {% endfor %}
+              </ul>
+            {% endif %}
               <div class="signup">
                 <span class="signup">Already have an account?
                  <label for="check">Login</label>
